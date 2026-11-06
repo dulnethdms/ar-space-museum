@@ -1,54 +1,89 @@
-# Mini Space Museum
+# AR Space Project
 
-Small AR app for the AR activity. Point a phone at the Hiro marker and a little
-space scene comes up on the marker.
+This is a small augmented reality project created for our university AR activity. It uses A-Frame and AR.js to display a mini space scene when the camera detects a Hiro marker.
 
-## What is in the scene
+The scene includes a rocket, planet, moon and satellite, along with a few animations and interactive features.
 
-- a platform (cylinder) the whole thing stands on
-- a rocket loaded from `models/rocket.glb`
-- a planet that spins slowly and changes colour when tapped
-- a moon next to it
-- a satellite made from boxes and a cylinder
-- a text label that says SPACE EXPLORER
+## Scene Features
 
-The rocket goes up and down, the planet rotates. Tap the planet to change its
-colour and tap the rocket to make it bigger, tap again to put it back.
+- A 3D rocket model.
+- A rotating planet that changes colour when tapped.
+- A moon next to the planet.
+- A satellite made using basic 3D shapes.
+- A platform for the space scene.
+- A text label saying "SPACE EXPLORER".
+- A rocket that moves up and down.
+- A rocket that grows when tapped and returns to its original size when tapped again.
 
-There is a bar at the top of the screen. It says "Looking for marker..." at the
-start, turns green when the marker is found and red when it is lost.
+There is also a status message at the top of the screen to show whether the Hiro marker has been detected.
 
-## Files
+## Technologies Used
 
+- HTML
+- CSS
+- JavaScript
+- A-Frame 1.3.0
+- AR.js 3.4.5
+
+## Project Files
+
+```text
+ar-space-project/
+│
+├── index.html
+├── models/
+│   └── rocket.glb
+└── README.md
 ```
-index.html
-models/rocket.glb
-```
 
-## Running it
+## How to Run
 
-It has to be on a server, the camera will not work if you just open the file.
+1. Download or clone this repository.
+2. Make sure the `rocket.glb` file is inside the `models` folder.
+3. Open the project folder in VS Code.
+4. Run the project using Live Server or a local server.
 
-```
+You can also use Python:
+
+```bash
 python -m http.server 8000
 ```
 
-Then go to http://localhost:8000. On a phone you need an HTTPS link, so use the
-GitHub Pages link below instead of localhost.
+Then open:
 
-## Marker
+`http://localhost:8000`
 
-Hiro marker, print it or show it on another screen:
+For mobile testing, the project needs to be hosted using HTTPS so the browser can access the camera.
+
+## Using the AR Project
+
+1. Open the project on your phone.
+2. Allow camera permission.
+3. Show the Hiro marker to the camera.
+4. Wait for the space scene to appear.
+5. Tap the planet to change its colour.
+6. Tap the rocket to make it bigger or return it to its original size.
+
+## Hiro Marker
+
+The project uses the default Hiro marker.
+
+You can download or print it here:
+
 https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/images/HIRO.jpg
 
-## Live version
+## Live Demo
 
-https://hirundineth.github.io/ar-activity/
+[Open AR Space Project](https://hirundineth.github.io/ar-activity/)
 
 ## Credits
 
-Rocket model: "Space rocket" by Hennadiy Kyseliov, from Poly Pizza
-(https://poly.pizza/m/8GOlSAMYkeC), CC BY 4.0
-(https://creativecommons.org/licenses/by/4.0/).
+**Rocket model:** "Space rocket" by Hennadiy Kyseliov, from Poly Pizza.
 
-A-Frame 1.3.0 and AR.js 3.4.5 are MIT.
+https://poly.pizza/m/8GOlSAMYkeC
+
+Licence: CC BY 4.0
+
+https://creativecommons.org/licenses/by/4.0/
+
+A-Frame and AR.js are used under their respective MIT licences.
