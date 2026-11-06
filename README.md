@@ -28,7 +28,7 @@ There is also a status message at the top of the screen to show whether the Hiro
 ## Project Files
 
 ```text
-ar-space-project/
+ar-space-museum/
 │
 ├── index.html
 ├── models/
@@ -74,7 +74,7 @@ https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/images/HIRO.jpg
 
 ## Live Demo
 
-[Open AR Space Project](https://hirundineth.github.io/ar-activity/)
+[Open AR Space Project](https://hirundineth.github.io/ar-space-museum/)
 
 ## Credits
 
