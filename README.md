@@ -78,9 +78,9 @@ https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/images/HIRO.jpg
 
 ## Credits
 
-**Rocket model:** "Space rocket" by Hennadiy Kyseliov, from Poly Pizza.
+**Rocket model:** "Rocketship" by Gabriel Valdivia, from Poly Pizza.
 
-https://poly.pizza/m/8GOlSAMYkeC
+https://poly.pizza/m/a5ChWS6uW0y
 
 Licence: CC BY 4.0
 
